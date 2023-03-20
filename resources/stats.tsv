@@ -1,0 +1,994 @@
+Cleaned complex type	*	12019429
+Cleaned complex type	coordinates	5927711
+Cleaned complex type	duration	61387
+Cleaned complex type	integer	414518
+Cleaned complex type	quantity	5386422
+Cleaned complex type	time	229391
+Instances of a shape	*	6943422
+Instances of a shape	<http://bioschemas.org/BioChemEntity>	21368
+Instances of a shape	<http://bioschemas.org/ChemicalSubstance>	12790
+Instances of a shape	<http://bioschemas.org/Gene>	7522
+Instances of a shape	<http://bioschemas.org/MolecularEntity>	164
+Instances of a shape	<http://bioschemas.org/Protein>	1370
+Instances of a shape	<http://bioschemas.org/Taxon>	274544
+Instances of a shape	<http://schema.org/Accommodation>	12773
+Instances of a shape	<http://schema.org/AdministrativeArea>	92101
+Instances of a shape	<http://schema.org/Airline>	2681
+Instances of a shape	<http://schema.org/Airport>	7922
+Instances of a shape	<http://schema.org/AmusementPark>	560
+Instances of a shape	<http://schema.org/AnatomicalStructure>	997
+Instances of a shape	<http://schema.org/AnimalShelter>	3
+Instances of a shape	<http://schema.org/Apartment>	12
+Instances of a shape	<http://schema.org/Aquarium>	127
+Instances of a shape	<http://schema.org/ArchiveOrganization>	441
+Instances of a shape	<http://schema.org/ArtGallery>	378
+Instances of a shape	<http://schema.org/Artery>	217
+Instances of a shape	<http://schema.org/Article>	458
+Instances of a shape	<http://schema.org/Atlas>	15
+Instances of a shape	<http://schema.org/AudioObject>	0
+Instances of a shape	<http://schema.org/AutoRental>	12
+Instances of a shape	<http://schema.org/AutomotiveBusiness>	98
+Instances of a shape	<http://schema.org/Bakery>	32
+Instances of a shape	<http://schema.org/BankOrCreditUnion>	290
+Instances of a shape	<http://schema.org/BarOrPub>	868
+Instances of a shape	<http://schema.org/Beach>	692
+Instances of a shape	<http://schema.org/BeautySalon>	0
+Instances of a shape	<http://schema.org/BedAndBreakfast>	13
+Instances of a shape	<http://schema.org/Blog>	67
+Instances of a shape	<http://schema.org/BlogPosting>	2
+Instances of a shape	<http://schema.org/BloodTest>	17
+Instances of a shape	<http://schema.org/BodyOfWater>	42757
+Instances of a shape	<http://schema.org/Bone>	19
+Instances of a shape	<http://schema.org/Book>	5335
+Instances of a shape	<http://schema.org/BookSeries>	1404
+Instances of a shape	<http://schema.org/BookStore>	108
+Instances of a shape	<http://schema.org/BowlingAlley>	3
+Instances of a shape	<http://schema.org/Brand>	5101
+Instances of a shape	<http://schema.org/Brewery>	547
+Instances of a shape	<http://schema.org/Bridge>	4868
+Instances of a shape	<http://schema.org/BroadcastChannel>	2573
+Instances of a shape	<http://schema.org/BroadcastService>	369
+Instances of a shape	<http://schema.org/BuddhistTemple>	781
+Instances of a shape	<http://schema.org/BusOrCoach>	3
+Instances of a shape	<http://schema.org/BusStation>	563
+Instances of a shape	<http://schema.org/BusStop>	144
+Instances of a shape	<http://schema.org/CafeOrCoffeeShop>	88
+Instances of a shape	<http://schema.org/Campground>	31
+Instances of a shape	<http://schema.org/Canal>	672
+Instances of a shape	<http://schema.org/Car>	3
+Instances of a shape	<http://schema.org/Casino>	195
+Instances of a shape	<http://schema.org/CatholicChurch>	609
+Instances of a shape	<http://schema.org/Cemetery>	2162
+Instances of a shape	<http://schema.org/Chapter>	643
+Instances of a shape	<http://schema.org/ChildCare>	1
+Instances of a shape	<http://schema.org/Church>	16357
+Instances of a shape	<http://schema.org/City>	7911
+Instances of a shape	<http://schema.org/CityHall>	544
+Instances of a shape	<http://schema.org/CivicStructure>	132136
+Instances of a shape	<http://schema.org/Collection>	3041
+Instances of a shape	<http://schema.org/CollegeOrUniversity>	12251
+Instances of a shape	<http://schema.org/ComedyClub>	12
+Instances of a shape	<http://schema.org/ComicSeries>	1778
+Instances of a shape	<http://schema.org/ComicStory>	1366
+Instances of a shape	<http://schema.org/ComputerLanguage>	75
+Instances of a shape	<http://schema.org/Continent>	25
+Instances of a shape	<http://schema.org/Corporation>	28963
+Instances of a shape	<http://schema.org/Country>	175
+Instances of a shape	<http://schema.org/Course>	30
+Instances of a shape	<http://schema.org/Courthouse>	387
+Instances of a shape	<http://schema.org/CreativeWork>	336897
+Instances of a shape	<http://schema.org/CreativeWorkSeason>	5496
+Instances of a shape	<http://schema.org/CreativeWorkSeries>	53079
+Instances of a shape	<http://schema.org/Crematorium>	15
+Instances of a shape	<http://schema.org/DanceGroup>	178
+Instances of a shape	<http://schema.org/DataCatalog>	1
+Instances of a shape	<http://schema.org/Dataset>	1369
+Instances of a shape	<http://schema.org/DaySpa>	3
+Instances of a shape	<http://schema.org/DefenceEstablishment>	374
+Instances of a shape	<http://schema.org/DiagnosticProcedure>	15
+Instances of a shape	<http://schema.org/Distillery>	48
+Instances of a shape	<http://schema.org/Drawing>	112
+Instances of a shape	<http://schema.org/Drug>	1751
+Instances of a shape	<http://schema.org/DrugLegalStatus>	1
+Instances of a shape	<http://schema.org/EducationalOrganization>	30472
+Instances of a shape	<http://schema.org/ElementarySchool>	1
+Instances of a shape	<http://schema.org/Embassy>	689
+Instances of a shape	<http://schema.org/EmergencyService>	4420
+Instances of a shape	<http://schema.org/EmploymentAgency>	7
+Instances of a shape	<http://schema.org/EntertainmentBusiness>	2596
+Instances of a shape	<http://schema.org/Episode>	7907
+Instances of a shape	<http://schema.org/Event>	148074
+Instances of a shape	<http://schema.org/EventSeries>	99002
+Instances of a shape	<http://schema.org/EventVenue>	2180
+Instances of a shape	<http://schema.org/Festival>	1233
+Instances of a shape	<http://schema.org/FinancialProduct>	643
+Instances of a shape	<http://schema.org/FinancialService>	357
+Instances of a shape	<http://schema.org/FireStation>	287
+Instances of a shape	<http://schema.org/FoodEstablishment>	3230
+Instances of a shape	<http://schema.org/Game>	18008
+Instances of a shape	<http://schema.org/GasStation>	86
+Instances of a shape	<http://schema.org/GeoCoordinates>	0
+Instances of a shape	<http://schema.org/GolfCourse>	299
+Instances of a shape	<http://schema.org/GovernmentBuilding>	2756
+Instances of a shape	<http://schema.org/GovernmentOffice>	7505
+Instances of a shape	<http://schema.org/GovernmentOrganization>	4447
+Instances of a shape	<http://schema.org/GroceryStore>	16
+Instances of a shape	<http://schema.org/HealthAndBeautyBusiness>	26
+Instances of a shape	<http://schema.org/HealthClub>	23
+Instances of a shape	<http://schema.org/HinduTemple>	1464
+Instances of a shape	<http://schema.org/Hospital>	4076
+Instances of a shape	<http://schema.org/Hostel>	16
+Instances of a shape	<http://schema.org/Hotel>	2950
+Instances of a shape	<http://schema.org/House>	12765
+Instances of a shape	<http://schema.org/IceCreamShop>	6
+Instances of a shape	<http://schema.org/ImageObject>	0
+Instances of a shape	<http://schema.org/InfectiousDisease>	222
+Instances of a shape	<http://schema.org/Joint>	11
+Instances of a shape	<http://schema.org/LakeBodyOfWater>	8100
+Instances of a shape	<http://schema.org/Landform>	75170
+Instances of a shape	<http://schema.org/LandmarksOrHistoricalBuildings>	2826
+Instances of a shape	<http://schema.org/Language>	4991
+Instances of a shape	<http://schema.org/Legislation>	5235
+Instances of a shape	<http://schema.org/Library>	1853
+Instances of a shape	<http://schema.org/Ligament>	19
+Instances of a shape	<http://schema.org/LiquorStore>	3
+Instances of a shape	<http://schema.org/LocalBusiness>	49862
+Instances of a shape	<http://schema.org/LodgingBusiness>	3262
+Instances of a shape	<http://schema.org/Manuscript>	1763
+Instances of a shape	<http://schema.org/Map>	48
+Instances of a shape	<http://schema.org/MediaObject>	0
+Instances of a shape	<http://schema.org/MedicalBusiness>	42
+Instances of a shape	<http://schema.org/MedicalClinic>	25
+Instances of a shape	<http://schema.org/MedicalCondition>	2578
+Instances of a shape	<http://schema.org/MedicalDevice>	48
+Instances of a shape	<http://schema.org/MedicalEntity>	5832
+Instances of a shape	<http://schema.org/MedicalGuideline>	0
+Instances of a shape	<http://schema.org/MedicalOrganization>	4491
+Instances of a shape	<http://schema.org/MedicalProcedure>	318
+Instances of a shape	<http://schema.org/MedicalSign>	340
+Instances of a shape	<http://schema.org/MedicalSignOrSymptom>	443
+Instances of a shape	<http://schema.org/MedicalSpecialty>	123
+Instances of a shape	<http://schema.org/MedicalSymptom>	109
+Instances of a shape	<http://schema.org/MedicalTest>	151
+Instances of a shape	<http://schema.org/MedicalTherapy>	2
+Instances of a shape	<http://schema.org/MiddleSchool>	410
+Instances of a shape	<http://schema.org/MobileApplication>	262
+Instances of a shape	<http://schema.org/Mosque>	1370
+Instances of a shape	<http://schema.org/Motel>	26
+Instances of a shape	<http://schema.org/Motorcycle>	42
+Instances of a shape	<http://schema.org/Mountain>	17194
+Instances of a shape	<http://schema.org/Movie>	95782
+Instances of a shape	<http://schema.org/MovieSeries>	0
+Instances of a shape	<http://schema.org/MovieTheater>	1281
+Instances of a shape	<http://schema.org/Muscle>	165
+Instances of a shape	<http://schema.org/Museum>	8566
+Instances of a shape	<http://schema.org/MusicAlbum>	92363
+Instances of a shape	<http://schema.org/MusicComposition>	25441
+Instances of a shape	<http://schema.org/MusicGroup>	25166
+Instances of a shape	<http://schema.org/MusicPlaylist>	92363
+Instances of a shape	<http://schema.org/MusicRelease>	0
+Instances of a shape	<http://schema.org/MusicVenue>	1119
+Instances of a shape	<http://schema.org/NGO>	4807
+Instances of a shape	<http://schema.org/NailSalon>	0
+Instances of a shape	<http://schema.org/Nerve>	32
+Instances of a shape	<http://schema.org/NewsArticle>	37
+Instances of a shape	<http://schema.org/Newspaper>	5368
+Instances of a shape	<http://schema.org/NightClub>	200
+Instances of a shape	<http://schema.org/Occupation>	3334
+Instances of a shape	<http://schema.org/OceanBodyOfWater>	19
+Instances of a shape	<http://schema.org/Optician>	0
+Instances of a shape	<http://schema.org/Organization>	220674
+Instances of a shape	<http://schema.org/OutletStore>	58
+Instances of a shape	<http://schema.org/Painting>	4847
+Instances of a shape	<http://schema.org/Park>	4044
+Instances of a shape	<http://schema.org/ParkingFacility>	162
+Instances of a shape	<http://schema.org/PawnShop>	3
+Instances of a shape	<http://schema.org/PerformingArtsTheater>	2584
+Instances of a shape	<http://schema.org/PerformingGroup>	25626
+Instances of a shape	<http://schema.org/Periodical>	20983
+Instances of a shape	<http://schema.org/Person>	1179208
+Instances of a shape	<http://schema.org/PetStore>	5
+Instances of a shape	<http://schema.org/Pharmacy>	17
+Instances of a shape	<http://schema.org/Photograph>	78
+Instances of a shape	<http://schema.org/PhysicalExam>	10
+Instances of a shape	<http://schema.org/Place>	352787
+Instances of a shape	<http://schema.org/PlaceOfWorship>	21442
+Instances of a shape	<http://schema.org/Play>	3566
+Instances of a shape	<http://schema.org/Playground>	0
+Instances of a shape	<http://schema.org/PodcastSeries>	365
+Instances of a shape	<http://schema.org/PoliceStation>	47
+Instances of a shape	<http://schema.org/Pond>	97
+Instances of a shape	<http://schema.org/PostOffice>	343
+Instances of a shape	<http://schema.org/Poster>	9
+Instances of a shape	<http://schema.org/Preschool>	12
+Instances of a shape	<http://schema.org/Product>	36349
+Instances of a shape	<http://schema.org/ProductModel>	0
+Instances of a shape	<http://schema.org/PublicSwimmingPool>	1
+Instances of a shape	<http://schema.org/PublicToilet>	4
+Instances of a shape	<http://schema.org/PublicationIssue>	2
+Instances of a shape	<http://schema.org/PublicationVolume>	1
+Instances of a shape	<http://schema.org/QuantitativeValue>	0
+Instances of a shape	<http://schema.org/RadiationTherapy>	2
+Instances of a shape	<http://schema.org/RadioChannel>	16
+Instances of a shape	<http://schema.org/RadioSeries>	121
+Instances of a shape	<http://schema.org/RadioStation>	14503
+Instances of a shape	<http://schema.org/Rating>	1
+Instances of a shape	<http://schema.org/RecyclingCenter>	2
+Instances of a shape	<http://schema.org/Report>	103
+Instances of a shape	<http://schema.org/Reservoir>	1760
+Instances of a shape	<http://schema.org/Resort>	248
+Instances of a shape	<http://schema.org/Restaurant>	1492
+Instances of a shape	<http://schema.org/RiverBodyOfWater>	24523
+Instances of a shape	<http://schema.org/ScholarlyArticle>	113
+Instances of a shape	<http://schema.org/School>	15105
+Instances of a shape	<http://schema.org/Sculpture>	3183
+Instances of a shape	<http://schema.org/SeaBodyOfWater>	78
+Instances of a shape	<http://schema.org/SelfStorage>	1
+Instances of a shape	<http://schema.org/Service>	1012
+Instances of a shape	<http://schema.org/SheetMusic>	0
+Instances of a shape	<http://schema.org/ShoeStore>	1
+Instances of a shape	<http://schema.org/ShoppingCenter>	2182
+Instances of a shape	<http://schema.org/SkiResort>	468
+Instances of a shape	<http://schema.org/SocialMediaPosting>	53
+Instances of a shape	<http://schema.org/SoftwareApplication>	18224
+Instances of a shape	<http://schema.org/Specialty>	1295
+Instances of a shape	<http://schema.org/SportsActivityLocation>	6003
+Instances of a shape	<http://schema.org/SportsEvent>	39507
+Instances of a shape	<http://schema.org/SportsOrganization>	17289
+Instances of a shape	<http://schema.org/SportsTeam>	14961
+Instances of a shape	<http://schema.org/StadiumOrArena>	5167
+Instances of a shape	<http://schema.org/State>	158
+Instances of a shape	<http://schema.org/Store>	316
+Instances of a shape	<http://schema.org/Substance>	1751
+Instances of a shape	<http://schema.org/SubwayStation>	7213
+Instances of a shape	<http://schema.org/SurgicalProcedure>	77
+Instances of a shape	<http://schema.org/Synagogue>	699
+Instances of a shape	<http://schema.org/TVEpisode>	7893
+Instances of a shape	<http://schema.org/TVSeason>	5496
+Instances of a shape	<http://schema.org/TVSeries>	26194
+Instances of a shape	<http://schema.org/TattooParlor>	0
+Instances of a shape	<http://schema.org/TelevisionChannel>	2557
+Instances of a shape	<http://schema.org/TelevisionStation>	3527
+Instances of a shape	<http://schema.org/TennisComplex>	45
+Instances of a shape	<http://schema.org/TheaterGroup>	290
+Instances of a shape	<http://schema.org/TherapeuticProcedure>	2
+Instances of a shape	<http://schema.org/Thesis>	3
+Instances of a shape	<http://schema.org/Thing>	2759960
+Instances of a shape	<http://schema.org/TouristAttraction>	1629
+Instances of a shape	<http://schema.org/TouristInformationCenter>	17
+Instances of a shape	<http://schema.org/ToyStore>	1
+Instances of a shape	<http://schema.org/TrainStation>	28064
+Instances of a shape	<http://schema.org/TravelAgency>	12
+Instances of a shape	<http://schema.org/Vehicle>	6123
+Instances of a shape	<http://schema.org/Vein>	130
+Instances of a shape	<http://schema.org/Vessel>	347
+Instances of a shape	<http://schema.org/VideoGame>	16730
+Instances of a shape	<http://schema.org/VideoGameSeries>	678
+Instances of a shape	<http://schema.org/VideoObject>	0
+Instances of a shape	<http://schema.org/VisualArtwork>	13828
+Instances of a shape	<http://schema.org/Volcano>	512
+Instances of a shape	<http://schema.org/Waterfall>	1338
+Instances of a shape	<http://schema.org/WebPage>	28
+Instances of a shape	<http://schema.org/WebSite>	3965
+Instances of a shape	<http://schema.org/Winery>	364
+Instances of a shape	<http://schema.org/WorkersUnion>	1406
+Instances of a shape	<http://schema.org/Zoo>	674
+Not disjoint classes	*	267
+Not disjoint classes instances	*	4011
+Possible Yago resource with English Wikipedia URI	*	5663772
+Possible Yago resource with English label URI	*	0
+Possible Yago resource with Qid only URI	*	0
+Possible annotations	*	7014178
+Possible annotations	<http://schema.org/endDate>	2333239
+Possible annotations	<http://schema.org/startDate>	4680939
+Total URI mapping size	*	5664015
+Wikidata classes kept for Yago	*	4249
+Wikidata classes mapped to schema.org	*	243
+Wikidata classes subclass of a mapped class	*	1197794
+Wikidata classes used for the instance of extraction	*	7519
+Wikidata instance of	*	59828052
+Wikidata instance of to a Yago class	*	44107661
+Wikidata items	*	57354987
+Wikidata items mapped to English Wikipedia articles	*	5663892
+Wikidata items with Wikipedia articles	*	16541822
+Wikidata items with sub class of	*	1585601
+Wikidata sub class of	*	1986590
+Wikidata sub class of from mapped classes	*	1986233
+Yago annotations	*	211966
+Yago annotations	<http://bioschemas.org/parentTaxon> <http://schema.org/startDate>	1
+Yago annotations	<http://schema.org/about> <http://schema.org/endDate>	1
+Yago annotations	<http://schema.org/actor> <http://schema.org/endDate>	41
+Yago annotations	<http://schema.org/actor> <http://schema.org/startDate>	55
+Yago annotations	<http://schema.org/affiliation> <http://schema.org/endDate>	46
+Yago annotations	<http://schema.org/affiliation> <http://schema.org/startDate>	104
+Yago annotations	<http://schema.org/alumniOf> <http://schema.org/endDate>	16837
+Yago annotations	<http://schema.org/alumniOf> <http://schema.org/startDate>	7138
+Yago annotations	<http://schema.org/author> <http://schema.org/endDate>	11
+Yago annotations	<http://schema.org/author> <http://schema.org/startDate>	10
+Yago annotations	<http://schema.org/award> <http://schema.org/endDate>	59
+Yago annotations	<http://schema.org/award> <http://schema.org/startDate>	152
+Yago annotations	<http://schema.org/birthDate> <http://schema.org/endDate>	1
+Yago annotations	<http://schema.org/birthDate> <http://schema.org/startDate>	1
+Yago annotations	<http://schema.org/birthPlace> <http://schema.org/endDate>	1
+Yago annotations	<http://schema.org/broadcastChannelId> <http://schema.org/endDate>	2
+Yago annotations	<http://schema.org/callSign> <http://schema.org/endDate>	2
+Yago annotations	<http://schema.org/children> <http://schema.org/endDate>	1
+Yago annotations	<http://schema.org/children> <http://schema.org/startDate>	3
+Yago annotations	<http://schema.org/composer> <http://schema.org/endDate>	1
+Yago annotations	<http://schema.org/composer> <http://schema.org/startDate>	2
+Yago annotations	<http://schema.org/containedInPlace> <http://schema.org/endDate>	3559
+Yago annotations	<http://schema.org/containedInPlace> <http://schema.org/startDate>	4178
+Yago annotations	<http://schema.org/containsPlace> <http://schema.org/endDate>	710
+Yago annotations	<http://schema.org/containsPlace> <http://schema.org/startDate>	1403
+Yago annotations	<http://schema.org/contentLocation> <http://schema.org/endDate>	2
+Yago annotations	<http://schema.org/contentLocation> <http://schema.org/startDate>	8
+Yago annotations	<http://schema.org/copyrightHolder> <http://schema.org/endDate>	3
+Yago annotations	<http://schema.org/copyrightHolder> <http://schema.org/startDate>	7
+Yago annotations	<http://schema.org/countryOfOrigin> <http://schema.org/endDate>	3
+Yago annotations	<http://schema.org/countryOfOrigin> <http://schema.org/startDate>	6
+Yago annotations	<http://schema.org/creator> <http://schema.org/endDate>	1
+Yago annotations	<http://schema.org/creator> <http://schema.org/startDate>	3
+Yago annotations	<http://schema.org/dateCreated> <http://schema.org/endDate>	62
+Yago annotations	<http://schema.org/dateCreated> <http://schema.org/startDate>	54
+Yago annotations	<http://schema.org/datePublished> <http://schema.org/endDate>	35
+Yago annotations	<http://schema.org/datePublished> <http://schema.org/startDate>	24
+Yago annotations	<http://schema.org/deathDate> <http://schema.org/endDate>	1
+Yago annotations	<http://schema.org/deathDate> <http://schema.org/startDate>	1
+Yago annotations	<http://schema.org/deathPlace> <http://schema.org/endDate>	1
+Yago annotations	<http://schema.org/deathPlace> <http://schema.org/startDate>	2
+Yago annotations	<http://schema.org/duration> <http://schema.org/endDate>	4
+Yago annotations	<http://schema.org/duration> <http://schema.org/startDate>	5
+Yago annotations	<http://schema.org/editor> <http://schema.org/endDate>	158
+Yago annotations	<http://schema.org/editor> <http://schema.org/startDate>	224
+Yago annotations	<http://schema.org/founder> <http://schema.org/startDate>	2
+Yago annotations	<http://schema.org/foundingDate> <http://schema.org/endDate>	6
+Yago annotations	<http://schema.org/foundingDate> <http://schema.org/startDate>	6
+Yago annotations	<http://schema.org/foundingLocation> <http://schema.org/startDate>	2
+Yago annotations	<http://schema.org/geo> <http://schema.org/endDate>	5
+Yago annotations	<http://schema.org/geo> <http://schema.org/startDate>	87
+Yago annotations	<http://schema.org/hasOccupation> <http://schema.org/endDate>	2249
+Yago annotations	<http://schema.org/hasOccupation> <http://schema.org/startDate>	2529
+Yago annotations	<http://schema.org/hasPart> <http://schema.org/startDate>	1
+Yago annotations	<http://schema.org/homeLocation> <http://schema.org/endDate>	837
+Yago annotations	<http://schema.org/homeLocation> <http://schema.org/startDate>	1358
+Yago annotations	<http://schema.org/honorificPrefix> <http://schema.org/endDate>	108
+Yago annotations	<http://schema.org/honorificPrefix> <http://schema.org/startDate>	272
+Yago annotations	<http://schema.org/iataCode> <http://schema.org/endDate>	33
+Yago annotations	<http://schema.org/iataCode> <http://schema.org/startDate>	34
+Yago annotations	<http://schema.org/icaoCode> <http://schema.org/endDate>	22
+Yago annotations	<http://schema.org/icaoCode> <http://schema.org/startDate>	25
+Yago annotations	<http://schema.org/image> <http://schema.org/endDate>	15
+Yago annotations	<http://schema.org/image> <http://schema.org/startDate>	29
+Yago annotations	<http://schema.org/inLanguage> <http://schema.org/endDate>	2
+Yago annotations	<http://schema.org/inLanguage> <http://schema.org/startDate>	17
+Yago annotations	<http://schema.org/isBasedOn> <http://schema.org/startDate>	1
+Yago annotations	<http://schema.org/isPartOf> <http://schema.org/endDate>	5
+Yago annotations	<http://schema.org/isPartOf> <http://schema.org/startDate>	9
+Yago annotations	<http://schema.org/issn> <http://schema.org/startDate>	3
+Yago annotations	<http://schema.org/knowsLanguage> <http://schema.org/endDate>	1
+Yago annotations	<http://schema.org/knowsLanguage> <http://schema.org/startDate>	3
+Yago annotations	<http://schema.org/leiCode> <http://schema.org/startDate>	17
+Yago annotations	<http://schema.org/location> <http://schema.org/endDate>	2581
+Yago annotations	<http://schema.org/location> <http://schema.org/startDate>	2816
+Yago annotations	<http://schema.org/locationCreated> <http://schema.org/endDate>	7
+Yago annotations	<http://schema.org/locationCreated> <http://schema.org/startDate>	9
+Yago annotations	<http://schema.org/logo> <http://schema.org/endDate>	197
+Yago annotations	<http://schema.org/logo> <http://schema.org/startDate>	947
+Yago annotations	<http://schema.org/lyricist> <http://schema.org/startDate>	1
+Yago annotations	<http://schema.org/material> <http://schema.org/endDate>	2
+Yago annotations	<http://schema.org/material> <http://schema.org/startDate>	2
+Yago annotations	<http://schema.org/memberOf> <http://schema.org/endDate>	51978
+Yago annotations	<http://schema.org/memberOf> <http://schema.org/startDate>	70923
+Yago annotations	<http://schema.org/musicBy> <http://schema.org/endDate>	14
+Yago annotations	<http://schema.org/musicBy> <http://schema.org/startDate>	15
+Yago annotations	<http://schema.org/nationality> <http://schema.org/endDate>	5939
+Yago annotations	<http://schema.org/nationality> <http://schema.org/startDate>	12819
+Yago annotations	<http://schema.org/numberOfEpisodes> <http://schema.org/endDate>	5
+Yago annotations	<http://schema.org/numberOfEpisodes> <http://schema.org/startDate>	6
+Yago annotations	<http://schema.org/numberOfSeasons> <http://schema.org/endDate>	1
+Yago annotations	<http://schema.org/numberOfSeasons> <http://schema.org/startDate>	4
+Yago annotations	<http://schema.org/owns> <http://schema.org/endDate>	5
+Yago annotations	<http://schema.org/owns> <http://schema.org/startDate>	6
+Yago annotations	<http://schema.org/parent> <http://schema.org/endDate>	2
+Yago annotations	<http://schema.org/parent> <http://schema.org/startDate>	1
+Yago annotations	<http://schema.org/parentOrganization> <http://schema.org/endDate>	82
+Yago annotations	<http://schema.org/parentOrganization> <http://schema.org/startDate>	224
+Yago annotations	<http://schema.org/partOfSeries> <http://schema.org/endDate>	13
+Yago annotations	<http://schema.org/partOfSeries> <http://schema.org/startDate>	13
+Yago annotations	<http://schema.org/producer> <http://schema.org/endDate>	9
+Yago annotations	<http://schema.org/producer> <http://schema.org/startDate>	10
+Yago annotations	<http://schema.org/productionCompany> <http://schema.org/endDate>	1
+Yago annotations	<http://schema.org/productionCompany> <http://schema.org/startDate>	3
+Yago annotations	<http://schema.org/publisher> <http://schema.org/endDate>	31
+Yago annotations	<http://schema.org/publisher> <http://schema.org/startDate>	69
+Yago annotations	<http://schema.org/sponsor> <http://schema.org/endDate>	6
+Yago annotations	<http://schema.org/sponsor> <http://schema.org/startDate>	15
+Yago annotations	<http://schema.org/spouse> <http://schema.org/endDate>	6448
+Yago annotations	<http://schema.org/spouse> <http://schema.org/startDate>	13196
+Yago annotations	<http://schema.org/subOrganization> <http://schema.org/endDate>	88
+Yago annotations	<http://schema.org/subOrganization> <http://schema.org/startDate>	163
+Yago annotations	<http://schema.org/superEvent> <http://schema.org/endDate>	4
+Yago annotations	<http://schema.org/superEvent> <http://schema.org/startDate>	5
+Yago annotations	<http://schema.org/telephone> <http://schema.org/startDate>	1
+Yago annotations	<http://schema.org/url> <http://schema.org/endDate>	163
+Yago annotations	<http://schema.org/url> <http://schema.org/startDate>	358
+Yago annotations	<http://schema.org/worksFor> <http://schema.org/endDate>	87
+Yago annotations	<http://schema.org/worksFor> <http://schema.org/startDate>	96
+Yago facts	*	7426449
+Yago facts	<http://bioschemas.org/bioChemInteraction>	645
+Yago facts	<http://bioschemas.org/encodesBioChemEntity>	28
+Yago facts	<http://bioschemas.org/expressedIn>	10210
+Yago facts	<http://bioschemas.org/hasMolecularFunction>	0
+Yago facts	<http://bioschemas.org/inChI>	0
+Yago facts	<http://bioschemas.org/inChIKey>	0
+Yago facts	<http://bioschemas.org/isEncodedByBioChemEntity>	27
+Yago facts	<http://bioschemas.org/isInvolvedInBiologicalProcess>	1368
+Yago facts	<http://bioschemas.org/isLocatedInSubcellularLocation>	5
+Yago facts	<http://bioschemas.org/molecularFormula>	0
+Yago facts	<http://bioschemas.org/parentTaxon>	163050
+Yago facts	<http://bioschemas.org/smiles>	0
+Yago facts	<http://bioschemas.org/taxonRank>	57201
+Yago facts	<http://schema.org/about>	4272
+Yago facts	<http://schema.org/actor>	293686
+Yago facts	<http://schema.org/affiliation>	1251
+Yago facts	<http://schema.org/alumniOf>	288317
+Yago facts	<http://schema.org/author>	3478
+Yago facts	<http://schema.org/award>	82524
+Yago facts	<http://schema.org/birthDate>	1005374
+Yago facts	<http://schema.org/birthPlace>	301719
+Yago facts	<http://schema.org/brand>	99
+Yago facts	<http://schema.org/broadcastChannelId>	106
+Yago facts	<http://schema.org/byArtist>	21508
+Yago facts	<http://schema.org/callSign>	43
+Yago facts	<http://schema.org/character>	4883
+Yago facts	<http://schema.org/children>	39082
+Yago facts	<http://schema.org/citation>	261
+Yago facts	<http://schema.org/colorist>	30
+Yago facts	<http://schema.org/competitor>	25020
+Yago facts	<http://schema.org/composer>	7373
+Yago facts	<http://schema.org/connectedTo>	37
+Yago facts	<http://schema.org/containedInPlace>	98004
+Yago facts	<http://schema.org/containsPlace>	13055
+Yago facts	<http://schema.org/contentLocation>	14587
+Yago facts	<http://schema.org/contentRating>	0
+Yago facts	<http://schema.org/contributor>	282
+Yago facts	<http://schema.org/copyrightHolder>	61
+Yago facts	<http://schema.org/countryOfOrigin>	100611
+Yago facts	<http://schema.org/creator>	8159
+Yago facts	<http://schema.org/dateCreated>	25561
+Yago facts	<http://schema.org/datePublished>	207874
+Yago facts	<http://schema.org/deathDate>	455095
+Yago facts	<http://schema.org/deathPlace>	113155
+Yago facts	<http://schema.org/depth>	0
+Yago facts	<http://schema.org/director>	50315
+Yago facts	<http://schema.org/dissolutionDate>	12824
+Yago facts	<http://schema.org/duns>	57
+Yago facts	<http://schema.org/duration>	36050
+Yago facts	<http://schema.org/editor>	1144
+Yago facts	<http://schema.org/elevation>	58
+Yago facts	<http://schema.org/encodingFormat>	31
+Yago facts	<http://schema.org/endDate>	17034
+Yago facts	<http://schema.org/exampleOfWork>	47
+Yago facts	<http://schema.org/familyName>	77
+Yago facts	<http://schema.org/faxNumber>	1236
+Yago facts	<http://schema.org/founder>	5690
+Yago facts	<http://schema.org/foundingDate>	116525
+Yago facts	<http://schema.org/foundingLocation>	5820
+Yago facts	<http://schema.org/gender>	45
+Yago facts	<http://schema.org/genre>	3965
+Yago facts	<http://schema.org/geo>	291667
+Yago facts	<http://schema.org/givenName>	3146
+Yago facts	<http://schema.org/gtin>	2
+Yago facts	<http://schema.org/hasOccupation>	678650
+Yago facts	<http://schema.org/hasPart>	8099
+Yago facts	<http://schema.org/height>	465
+Yago facts	<http://schema.org/homeLocation>	15009
+Yago facts	<http://schema.org/honorificPrefix>	5110
+Yago facts	<http://schema.org/iataCode>	6075
+Yago facts	<http://schema.org/icaoCode>	7826
+Yago facts	<http://schema.org/illustrator>	80
+Yago facts	<http://schema.org/image>	883111
+Yago facts	<http://schema.org/inLanguage>	63485
+Yago facts	<http://schema.org/isBasedOn>	1982
+Yago facts	<http://schema.org/isPartOf>	5962
+Yago facts	<http://schema.org/isbn>	213
+Yago facts	<http://schema.org/issn>	3018
+Yago facts	<http://schema.org/issueNumber>	1
+Yago facts	<http://schema.org/iswcCode>	2318
+Yago facts	<http://schema.org/knowsLanguage>	361180
+Yago facts	<http://schema.org/latitude>	0
+Yago facts	<http://schema.org/legalStatus>	0
+Yago facts	<http://schema.org/leiCode>	2148
+Yago facts	<http://schema.org/license>	0
+Yago facts	<http://schema.org/location>	62783
+Yago facts	<http://schema.org/locationCreated>	338
+Yago facts	<http://schema.org/logo>	30016
+Yago facts	<http://schema.org/longitude>	0
+Yago facts	<http://schema.org/lyricist>	3661
+Yago facts	<http://schema.org/material>	670
+Yago facts	<http://schema.org/maxValue>	0
+Yago facts	<http://schema.org/memberOf>	229090
+Yago facts	<http://schema.org/minValue>	0
+Yago facts	<http://schema.org/musicBy>	28133
+Yago facts	<http://schema.org/musicReleaseFormat>	0
+Yago facts	<http://schema.org/nationality>	620629
+Yago facts	<http://schema.org/netWorth>	0
+Yago facts	<http://schema.org/numberOfEmployees>	26
+Yago facts	<http://schema.org/numberOfEpisodes>	20178
+Yago facts	<http://schema.org/numberOfPages>	86
+Yago facts	<http://schema.org/numberOfSeasons>	13872
+Yago facts	<http://schema.org/operatingSystem>	4
+Yago facts	<http://schema.org/organizer>	17
+Yago facts	<http://schema.org/owns>	85
+Yago facts	<http://schema.org/pagination>	79
+Yago facts	<http://schema.org/parent>	38893
+Yago facts	<http://schema.org/parentOrganization>	3641
+Yago facts	<http://schema.org/partOfSeason>	3382
+Yago facts	<http://schema.org/partOfSeries>	7260
+Yago facts	<http://schema.org/position>	0
+Yago facts	<http://schema.org/possibleTreatment>	0
+Yago facts	<http://schema.org/producer>	40034
+Yago facts	<http://schema.org/productionCompany>	7200
+Yago facts	<http://schema.org/provider>	43
+Yago facts	<http://schema.org/publisher>	10304
+Yago facts	<http://schema.org/recordLabel>	0
+Yago facts	<http://schema.org/releaseOf>	0
+Yago facts	<http://schema.org/relevantSpecialty>	344
+Yago facts	<http://schema.org/riskFactor>	6
+Yago facts	<http://schema.org/sameAs>	0
+Yago facts	<http://schema.org/servesCuisine>	61
+Yago facts	<http://schema.org/signOrSymptom>	156
+Yago facts	<http://schema.org/sponsor>	431
+Yago facts	<http://schema.org/sport>	32
+Yago facts	<http://schema.org/spouse>	28646
+Yago facts	<http://schema.org/startDate>	17756
+Yago facts	<http://schema.org/subEvent>	6351
+Yago facts	<http://schema.org/subOrganization>	2764
+Yago facts	<http://schema.org/superEvent>	12616
+Yago facts	<http://schema.org/telephone>	9093
+Yago facts	<http://schema.org/translator>	47
+Yago facts	<http://schema.org/unitCode>	0
+Yago facts	<http://schema.org/url>	288283
+Yago facts	<http://schema.org/value>	0
+Yago facts	<http://schema.org/volumeNumber>	0
+Yago facts	<http://schema.org/weight>	443
+Yago facts	<http://schema.org/width>	38
+Yago facts	<http://schema.org/workExample>	45
+Yago facts	<http://schema.org/worksFor>	407
+Yago facts	<http://www.w3.org/2002/07/owl#sameAs>	0
+Yago facts after domain filter	*	17289140
+Yago facts after domain filter	<http://bioschemas.org/bioChemInteraction>	1087
+Yago facts after domain filter	<http://bioschemas.org/encodesBioChemEntity>	9451
+Yago facts after domain filter	<http://bioschemas.org/expressedIn>	70491
+Yago facts after domain filter	<http://bioschemas.org/hasMolecularFunction>	6311
+Yago facts after domain filter	<http://bioschemas.org/inChI>	0
+Yago facts after domain filter	<http://bioschemas.org/inChIKey>	0
+Yago facts after domain filter	<http://bioschemas.org/isEncodedByBioChemEntity>	832
+Yago facts after domain filter	<http://bioschemas.org/isInvolvedInBiologicalProcess>	15924
+Yago facts after domain filter	<http://bioschemas.org/isLocatedInSubcellularLocation>	6937
+Yago facts after domain filter	<http://bioschemas.org/molecularFormula>	0
+Yago facts after domain filter	<http://bioschemas.org/parentTaxon>	276464
+Yago facts after domain filter	<http://bioschemas.org/smiles>	0
+Yago facts after domain filter	<http://bioschemas.org/taxonRank>	273263
+Yago facts after domain filter	<http://schema.org/about>	28341
+Yago facts after domain filter	<http://schema.org/actor>	565703
+Yago facts after domain filter	<http://schema.org/affiliation>	4789
+Yago facts after domain filter	<http://schema.org/alumniOf>	597826
+Yago facts after domain filter	<http://schema.org/author>	6393
+Yago facts after domain filter	<http://schema.org/award>	379631
+Yago facts after domain filter	<http://schema.org/birthDate>	1098668
+Yago facts after domain filter	<http://schema.org/birthPlace>	825085
+Yago facts after domain filter	<http://schema.org/brand>	333
+Yago facts after domain filter	<http://schema.org/broadcastChannelId>	106
+Yago facts after domain filter	<http://schema.org/byArtist>	89531
+Yago facts after domain filter	<http://schema.org/callSign>	43
+Yago facts after domain filter	<http://schema.org/character>	38418
+Yago facts after domain filter	<http://schema.org/children>	156587
+Yago facts after domain filter	<http://schema.org/citation>	1205
+Yago facts after domain filter	<http://schema.org/colorist>	70
+Yago facts after domain filter	<http://schema.org/competitor>	57591
+Yago facts after domain filter	<http://schema.org/composer>	12988
+Yago facts after domain filter	<http://schema.org/connectedTo>	149
+Yago facts after domain filter	<http://schema.org/containedInPlace>	399270
+Yago facts after domain filter	<http://schema.org/containsPlace>	59067
+Yago facts after domain filter	<http://schema.org/contentLocation>	36929
+Yago facts after domain filter	<http://schema.org/contentRating>	19084
+Yago facts after domain filter	<http://schema.org/contributor>	827
+Yago facts after domain filter	<http://schema.org/copyrightHolder>	180
+Yago facts after domain filter	<http://schema.org/countryOfOrigin>	132904
+Yago facts after domain filter	<http://schema.org/creator>	14634
+Yago facts after domain filter	<http://schema.org/dateCreated>	28077
+Yago facts after domain filter	<http://schema.org/datePublished>	250033
+Yago facts after domain filter	<http://schema.org/deathDate>	513786
+Yago facts after domain filter	<http://schema.org/deathPlace>	292014
+Yago facts after domain filter	<http://schema.org/depth>	13
+Yago facts after domain filter	<http://schema.org/director>	95006
+Yago facts after domain filter	<http://schema.org/dissolutionDate>	13191
+Yago facts after domain filter	<http://schema.org/duns>	59
+Yago facts after domain filter	<http://schema.org/duration>	36270
+Yago facts after domain filter	<http://schema.org/editor>	2630
+Yago facts after domain filter	<http://schema.org/elevation>	64983
+Yago facts after domain filter	<http://schema.org/encodingFormat>	58
+Yago facts after domain filter	<http://schema.org/endDate>	17086
+Yago facts after domain filter	<http://schema.org/exampleOfWork>	138
+Yago facts after domain filter	<http://schema.org/familyName>	687860
+Yago facts after domain filter	<http://schema.org/faxNumber>	1329
+Yago facts after domain filter	<http://schema.org/founder>	12530
+Yago facts after domain filter	<http://schema.org/foundingDate>	122229
+Yago facts after domain filter	<http://schema.org/foundingLocation>	14229
+Yago facts after domain filter	<http://schema.org/gender>	1178875
+Yago facts after domain filter	<http://schema.org/genre>	302074
+Yago facts after domain filter	<http://schema.org/geo>	326842
+Yago facts after domain filter	<http://schema.org/givenName>	1029876
+Yago facts after domain filter	<http://schema.org/gtin>	2
+Yago facts after domain filter	<http://schema.org/hasOccupation>	1795381
+Yago facts after domain filter	<http://schema.org/hasPart>	66033
+Yago facts after domain filter	<http://schema.org/height>	102748
+Yago facts after domain filter	<http://schema.org/homeLocation>	43251
+Yago facts after domain filter	<http://schema.org/honorificPrefix>	6647
+Yago facts after domain filter	<http://schema.org/iataCode>	6284
+Yago facts after domain filter	<http://schema.org/icaoCode>	7892
+Yago facts after domain filter	<http://schema.org/illustrator>	120
+Yago facts after domain filter	<http://schema.org/image>	883147
+Yago facts after domain filter	<http://schema.org/inLanguage>	85600
+Yago facts after domain filter	<http://schema.org/isBasedOn>	10636
+Yago facts after domain filter	<http://schema.org/isPartOf>	30957
+Yago facts after domain filter	<http://schema.org/isbn>	466
+Yago facts after domain filter	<http://schema.org/issn>	14018
+Yago facts after domain filter	<http://schema.org/issueNumber>	1
+Yago facts after domain filter	<http://schema.org/iswcCode>	2755
+Yago facts after domain filter	<http://schema.org/knowsLanguage>	546971
+Yago facts after domain filter	<http://schema.org/latitude>	0
+Yago facts after domain filter	<http://schema.org/legalStatus>	10
+Yago facts after domain filter	<http://schema.org/leiCode>	2215
+Yago facts after domain filter	<http://schema.org/license>	3265
+Yago facts after domain filter	<http://schema.org/location>	186395
+Yago facts after domain filter	<http://schema.org/locationCreated>	624
+Yago facts after domain filter	<http://schema.org/logo>	30028
+Yago facts after domain filter	<http://schema.org/longitude>	0
+Yago facts after domain filter	<http://schema.org/lyricist>	6977
+Yago facts after domain filter	<http://schema.org/material>	11979
+Yago facts after domain filter	<http://schema.org/maxValue>	0
+Yago facts after domain filter	<http://schema.org/memberOf>	1022355
+Yago facts after domain filter	<http://schema.org/minValue>	0
+Yago facts after domain filter	<http://schema.org/musicBy>	51762
+Yago facts after domain filter	<http://schema.org/musicReleaseFormat>	0
+Yago facts after domain filter	<http://schema.org/nationality>	1020600
+Yago facts after domain filter	<http://schema.org/netWorth>	714
+Yago facts after domain filter	<http://schema.org/numberOfEmployees>	6843
+Yago facts after domain filter	<http://schema.org/numberOfEpisodes>	20286
+Yago facts after domain filter	<http://schema.org/numberOfPages>	100
+Yago facts after domain filter	<http://schema.org/numberOfSeasons>	13899
+Yago facts after domain filter	<http://schema.org/operatingSystem>	4431
+Yago facts after domain filter	<http://schema.org/organizer>	19838
+Yago facts after domain filter	<http://schema.org/owns>	3422
+Yago facts after domain filter	<http://schema.org/pagination>	79
+Yago facts after domain filter	<http://schema.org/parent>	123296
+Yago facts after domain filter	<http://schema.org/parentOrganization>	8913
+Yago facts after domain filter	<http://schema.org/partOfSeason>	7080
+Yago facts after domain filter	<http://schema.org/partOfSeries>	13102
+Yago facts after domain filter	<http://schema.org/position>	130
+Yago facts after domain filter	<http://schema.org/possibleTreatment>	216
+Yago facts after domain filter	<http://schema.org/producer>	74124
+Yago facts after domain filter	<http://schema.org/productionCompany>	29927
+Yago facts after domain filter	<http://schema.org/provider>	114
+Yago facts after domain filter	<http://schema.org/publisher>	22426
+Yago facts after domain filter	<http://schema.org/recordLabel>	0
+Yago facts after domain filter	<http://schema.org/releaseOf>	0
+Yago facts after domain filter	<http://schema.org/relevantSpecialty>	1396
+Yago facts after domain filter	<http://schema.org/riskFactor>	39
+Yago facts after domain filter	<http://schema.org/sameAs>	0
+Yago facts after domain filter	<http://schema.org/servesCuisine>	327
+Yago facts after domain filter	<http://schema.org/signOrSymptom>	1316
+Yago facts after domain filter	<http://schema.org/sponsor>	1393
+Yago facts after domain filter	<http://schema.org/sport>	55082
+Yago facts after domain filter	<http://schema.org/spouse>	90093
+Yago facts after domain filter	<http://schema.org/startDate>	17818
+Yago facts after domain filter	<http://schema.org/subEvent>	27194
+Yago facts after domain filter	<http://schema.org/subOrganization>	16879
+Yago facts after domain filter	<http://schema.org/superEvent>	30285
+Yago facts after domain filter	<http://schema.org/telephone>	11036
+Yago facts after domain filter	<http://schema.org/translator>	195
+Yago facts after domain filter	<http://schema.org/unitCode>	0
+Yago facts after domain filter	<http://schema.org/url>	317654
+Yago facts after domain filter	<http://schema.org/value>	0
+Yago facts after domain filter	<http://schema.org/volumeNumber>	0
+Yago facts after domain filter	<http://schema.org/weight>	85339
+Yago facts after domain filter	<http://schema.org/width>	514
+Yago facts after domain filter	<http://schema.org/workExample>	2303
+Yago facts after domain filter	<http://schema.org/worksFor>	165918
+Yago facts after domain filter	<http://www.w3.org/2002/07/owl#sameAs>	0
+Yago facts after range filter	*	7626877
+Yago facts after range filter	<http://bioschemas.org/bioChemInteraction>	645
+Yago facts after range filter	<http://bioschemas.org/encodesBioChemEntity>	28
+Yago facts after range filter	<http://bioschemas.org/expressedIn>	10210
+Yago facts after range filter	<http://bioschemas.org/hasMolecularFunction>	0
+Yago facts after range filter	<http://bioschemas.org/inChI>	0
+Yago facts after range filter	<http://bioschemas.org/inChIKey>	0
+Yago facts after range filter	<http://bioschemas.org/isEncodedByBioChemEntity>	27
+Yago facts after range filter	<http://bioschemas.org/isInvolvedInBiologicalProcess>	1368
+Yago facts after range filter	<http://bioschemas.org/isLocatedInSubcellularLocation>	5
+Yago facts after range filter	<http://bioschemas.org/molecularFormula>	0
+Yago facts after range filter	<http://bioschemas.org/parentTaxon>	163050
+Yago facts after range filter	<http://bioschemas.org/smiles>	0
+Yago facts after range filter	<http://bioschemas.org/taxonRank>	57205
+Yago facts after range filter	<http://schema.org/about>	4272
+Yago facts after range filter	<http://schema.org/actor>	293686
+Yago facts after range filter	<http://schema.org/affiliation>	1251
+Yago facts after range filter	<http://schema.org/alumniOf>	288317
+Yago facts after range filter	<http://schema.org/author>	3478
+Yago facts after range filter	<http://schema.org/award>	82524
+Yago facts after range filter	<http://schema.org/birthDate>	1049754
+Yago facts after range filter	<http://schema.org/birthPlace>	303144
+Yago facts after range filter	<http://schema.org/brand>	99
+Yago facts after range filter	<http://schema.org/broadcastChannelId>	106
+Yago facts after range filter	<http://schema.org/byArtist>	21508
+Yago facts after range filter	<http://schema.org/callSign>	43
+Yago facts after range filter	<http://schema.org/character>	4883
+Yago facts after range filter	<http://schema.org/children>	39082
+Yago facts after range filter	<http://schema.org/citation>	261
+Yago facts after range filter	<http://schema.org/colorist>	30
+Yago facts after range filter	<http://schema.org/competitor>	25020
+Yago facts after range filter	<http://schema.org/composer>	7373
+Yago facts after range filter	<http://schema.org/connectedTo>	37
+Yago facts after range filter	<http://schema.org/containedInPlace>	98004
+Yago facts after range filter	<http://schema.org/containsPlace>	13055
+Yago facts after range filter	<http://schema.org/contentLocation>	14587
+Yago facts after range filter	<http://schema.org/contentRating>	0
+Yago facts after range filter	<http://schema.org/contributor>	282
+Yago facts after range filter	<http://schema.org/copyrightHolder>	61
+Yago facts after range filter	<http://schema.org/countryOfOrigin>	100611
+Yago facts after range filter	<http://schema.org/creator>	8159
+Yago facts after range filter	<http://schema.org/dateCreated>	26146
+Yago facts after range filter	<http://schema.org/datePublished>	248982
+Yago facts after range filter	<http://schema.org/deathDate>	486152
+Yago facts after range filter	<http://schema.org/deathPlace>	113832
+Yago facts after range filter	<http://schema.org/depth>	0
+Yago facts after range filter	<http://schema.org/director>	50315
+Yago facts after range filter	<http://schema.org/dissolutionDate>	12944
+Yago facts after range filter	<http://schema.org/duns>	59
+Yago facts after range filter	<http://schema.org/duration>	36050
+Yago facts after range filter	<http://schema.org/editor>	1144
+Yago facts after range filter	<http://schema.org/elevation>	58
+Yago facts after range filter	<http://schema.org/encodingFormat>	54
+Yago facts after range filter	<http://schema.org/endDate>	17076
+Yago facts after range filter	<http://schema.org/exampleOfWork>	47
+Yago facts after range filter	<http://schema.org/familyName>	77
+Yago facts after range filter	<http://schema.org/faxNumber>	1236
+Yago facts after range filter	<http://schema.org/founder>	5690
+Yago facts after range filter	<http://schema.org/foundingDate>	121313
+Yago facts after range filter	<http://schema.org/foundingLocation>	5820
+Yago facts after range filter	<http://schema.org/gender>	45
+Yago facts after range filter	<http://schema.org/genre>	3965
+Yago facts after range filter	<http://schema.org/geo>	326553
+Yago facts after range filter	<http://schema.org/givenName>	3146
+Yago facts after range filter	<http://schema.org/gtin>	2
+Yago facts after range filter	<http://schema.org/hasOccupation>	678650
+Yago facts after range filter	<http://schema.org/hasPart>	8099
+Yago facts after range filter	<http://schema.org/height>	471
+Yago facts after range filter	<http://schema.org/homeLocation>	15009
+Yago facts after range filter	<http://schema.org/honorificPrefix>	5110
+Yago facts after range filter	<http://schema.org/iataCode>	6137
+Yago facts after range filter	<http://schema.org/icaoCode>	7859
+Yago facts after range filter	<http://schema.org/illustrator>	80
+Yago facts after range filter	<http://schema.org/image>	883111
+Yago facts after range filter	<http://schema.org/inLanguage>	63485
+Yago facts after range filter	<http://schema.org/isBasedOn>	1982
+Yago facts after range filter	<http://schema.org/isPartOf>	5962
+Yago facts after range filter	<http://schema.org/isbn>	466
+Yago facts after range filter	<http://schema.org/issn>	14017
+Yago facts after range filter	<http://schema.org/issueNumber>	1
+Yago facts after range filter	<http://schema.org/iswcCode>	2753
+Yago facts after range filter	<http://schema.org/knowsLanguage>	361180
+Yago facts after range filter	<http://schema.org/latitude>	0
+Yago facts after range filter	<http://schema.org/legalStatus>	0
+Yago facts after range filter	<http://schema.org/leiCode>	2215
+Yago facts after range filter	<http://schema.org/license>	0
+Yago facts after range filter	<http://schema.org/location>	62783
+Yago facts after range filter	<http://schema.org/locationCreated>	338
+Yago facts after range filter	<http://schema.org/logo>	30016
+Yago facts after range filter	<http://schema.org/longitude>	0
+Yago facts after range filter	<http://schema.org/lyricist>	3661
+Yago facts after range filter	<http://schema.org/material>	670
+Yago facts after range filter	<http://schema.org/maxValue>	0
+Yago facts after range filter	<http://schema.org/memberOf>	229090
+Yago facts after range filter	<http://schema.org/minValue>	0
+Yago facts after range filter	<http://schema.org/musicBy>	28133
+Yago facts after range filter	<http://schema.org/musicReleaseFormat>	0
+Yago facts after range filter	<http://schema.org/nationality>	620629
+Yago facts after range filter	<http://schema.org/netWorth>	0
+Yago facts after range filter	<http://schema.org/numberOfEmployees>	26
+Yago facts after range filter	<http://schema.org/numberOfEpisodes>	20279
+Yago facts after range filter	<http://schema.org/numberOfPages>	90
+Yago facts after range filter	<http://schema.org/numberOfSeasons>	13892
+Yago facts after range filter	<http://schema.org/operatingSystem>	4
+Yago facts after range filter	<http://schema.org/organizer>	17
+Yago facts after range filter	<http://schema.org/owns>	85
+Yago facts after range filter	<http://schema.org/pagination>	79
+Yago facts after range filter	<http://schema.org/parent>	38923
+Yago facts after range filter	<http://schema.org/parentOrganization>	3641
+Yago facts after range filter	<http://schema.org/partOfSeason>	3382
+Yago facts after range filter	<http://schema.org/partOfSeries>	7260
+Yago facts after range filter	<http://schema.org/position>	0
+Yago facts after range filter	<http://schema.org/possibleTreatment>	0
+Yago facts after range filter	<http://schema.org/producer>	40034
+Yago facts after range filter	<http://schema.org/productionCompany>	7200
+Yago facts after range filter	<http://schema.org/provider>	43
+Yago facts after range filter	<http://schema.org/publisher>	10304
+Yago facts after range filter	<http://schema.org/recordLabel>	0
+Yago facts after range filter	<http://schema.org/releaseOf>	0
+Yago facts after range filter	<http://schema.org/relevantSpecialty>	344
+Yago facts after range filter	<http://schema.org/riskFactor>	6
+Yago facts after range filter	<http://schema.org/sameAs>	0
+Yago facts after range filter	<http://schema.org/servesCuisine>	61
+Yago facts after range filter	<http://schema.org/signOrSymptom>	156
+Yago facts after range filter	<http://schema.org/sponsor>	431
+Yago facts after range filter	<http://schema.org/sport>	32
+Yago facts after range filter	<http://schema.org/spouse>	28646
+Yago facts after range filter	<http://schema.org/startDate>	17806
+Yago facts after range filter	<http://schema.org/subEvent>	6351
+Yago facts after range filter	<http://schema.org/subOrganization>	2764
+Yago facts after range filter	<http://schema.org/superEvent>	12616
+Yago facts after range filter	<http://schema.org/telephone>	9093
+Yago facts after range filter	<http://schema.org/translator>	47
+Yago facts after range filter	<http://schema.org/unitCode>	0
+Yago facts after range filter	<http://schema.org/url>	317541
+Yago facts after range filter	<http://schema.org/value>	0
+Yago facts after range filter	<http://schema.org/volumeNumber>	0
+Yago facts after range filter	<http://schema.org/weight>	452
+Yago facts after range filter	<http://schema.org/width>	42
+Yago facts after range filter	<http://schema.org/workExample>	45
+Yago facts after range filter	<http://schema.org/worksFor>	407
+Yago facts after range filter	<http://www.w3.org/2002/07/owl#sameAs>	0
+Yago facts before any filter	*	23609910
+Yago facts before any filter	<http://bioschemas.org/bioChemInteraction>	1263
+Yago facts before any filter	<http://bioschemas.org/encodesBioChemEntity>	9468
+Yago facts before any filter	<http://bioschemas.org/expressedIn>	70528
+Yago facts before any filter	<http://bioschemas.org/hasMolecularFunction>	10048
+Yago facts before any filter	<http://bioschemas.org/inChI>	11370
+Yago facts before any filter	<http://bioschemas.org/inChIKey>	11521
+Yago facts before any filter	<http://bioschemas.org/isEncodedByBioChemEntity>	836
+Yago facts before any filter	<http://bioschemas.org/isInvolvedInBiologicalProcess>	15991
+Yago facts before any filter	<http://bioschemas.org/isLocatedInSubcellularLocation>	6958
+Yago facts before any filter	<http://bioschemas.org/molecularFormula>	12599
+Yago facts before any filter	<http://bioschemas.org/parentTaxon>	287799
+Yago facts before any filter	<http://bioschemas.org/smiles>	11135
+Yago facts before any filter	<http://bioschemas.org/taxonRank>	284598
+Yago facts before any filter	<http://schema.org/about>	44458
+Yago facts before any filter	<http://schema.org/actor>	575185
+Yago facts before any filter	<http://schema.org/affiliation>	11368
+Yago facts before any filter	<http://schema.org/alumniOf>	598242
+Yago facts before any filter	<http://schema.org/author>	49266
+Yago facts before any filter	<http://schema.org/award>	385938
+Yago facts before any filter	<http://schema.org/birthDate>	1103507
+Yago facts before any filter	<http://schema.org/birthPlace>	826456
+Yago facts before any filter	<http://schema.org/brand>	3778
+Yago facts before any filter	<http://schema.org/broadcastChannelId>	182
+Yago facts before any filter	<http://schema.org/byArtist>	160248
+Yago facts before any filter	<http://schema.org/callSign>	2198
+Yago facts before any filter	<http://schema.org/character>	47296
+Yago facts before any filter	<http://schema.org/children>	164902
+Yago facts before any filter	<http://schema.org/citation>	1464
+Yago facts before any filter	<http://schema.org/colorist>	213
+Yago facts before any filter	<http://schema.org/competitor>	152874
+Yago facts before any filter	<http://schema.org/composer>	71359
+Yago facts before any filter	<http://schema.org/connectedTo>	17077
+Yago facts before any filter	<http://schema.org/containedInPlace>	1054645
+Yago facts before any filter	<http://schema.org/containsPlace>	203764
+Yago facts before any filter	<http://schema.org/contentLocation>	43016
+Yago facts before any filter	<http://schema.org/contentRating>	19763
+Yago facts before any filter	<http://schema.org/contributor>	1596
+Yago facts before any filter	<http://schema.org/copyrightHolder>	335
+Yago facts before any filter	<http://schema.org/countryOfOrigin>	262745
+Yago facts before any filter	<http://schema.org/creator>	24537
+Yago facts before any filter	<http://schema.org/dateCreated>	403073
+Yago facts before any filter	<http://schema.org/datePublished>	330687
+Yago facts before any filter	<http://schema.org/deathDate>	515194
+Yago facts before any filter	<http://schema.org/deathPlace>	292503
+Yago facts before any filter	<http://schema.org/depth>	43
+Yago facts before any filter	<http://schema.org/director>	0
+Yago facts before any filter	<http://schema.org/dissolutionDate>	41326
+Yago facts before any filter	<http://schema.org/duns>	104
+Yago facts before any filter	<http://schema.org/duration>	47022
+Yago facts before any filter	<http://schema.org/editor>	3724
+Yago facts before any filter	<http://schema.org/elevation>	191529
+Yago facts before any filter	<http://schema.org/encodingFormat>	464
+Yago facts before any filter	<http://schema.org/endDate>	54293
+Yago facts before any filter	<http://schema.org/exampleOfWork>	405
+Yago facts before any filter	<http://schema.org/familyName>	690952
+Yago facts before any filter	<http://schema.org/faxNumber>	1387
+Yago facts before any filter	<http://schema.org/founder>	26055
+Yago facts before any filter	<http://schema.org/foundingDate>	403073
+Yago facts before any filter	<http://schema.org/foundingLocation>	18983
+Yago facts before any filter	<http://schema.org/gender>	1194267
+Yago facts before any filter	<http://schema.org/genre>	438078
+Yago facts before any filter	<http://schema.org/geo>	852622
+Yago facts before any filter	<http://schema.org/givenName>	1035886
+Yago facts before any filter	<http://schema.org/gtin>	228
+Yago facts before any filter	<http://schema.org/hasOccupation>	1805612
+Yago facts before any filter	<http://schema.org/hasPart>	272578
+Yago facts before any filter	<http://schema.org/height>	116922
+Yago facts before any filter	<http://schema.org/homeLocation>	44066
+Yago facts before any filter	<http://schema.org/honorificPrefix>	6786
+Yago facts before any filter	<http://schema.org/iataCode>	5282
+Yago facts before any filter	<http://schema.org/icaoCode>	6998
+Yago facts before any filter	<http://schema.org/illustrator>	2036
+Yago facts before any filter	<http://schema.org/image>	1145619
+Yago facts before any filter	<http://schema.org/inLanguage>	147237
+Yago facts before any filter	<http://schema.org/isBasedOn>	16099
+Yago facts before any filter	<http://schema.org/isPartOf>	232173
+Yago facts before any filter	<http://schema.org/isbn>	13097
+Yago facts before any filter	<http://schema.org/issn>	14737
+Yago facts before any filter	<http://schema.org/issueNumber>	78
+Yago facts before any filter	<http://schema.org/iswcCode>	3113
+Yago facts before any filter	<http://schema.org/knowsLanguage>	550253
+Yago facts before any filter	<http://schema.org/latitude>	0
+Yago facts before any filter	<http://schema.org/legalStatus>	15
+Yago facts before any filter	<http://schema.org/leiCode>	3367
+Yago facts before any filter	<http://schema.org/license>	6745
+Yago facts before any filter	<http://schema.org/location>	1054645
+Yago facts before any filter	<http://schema.org/locationCreated>	5716
+Yago facts before any filter	<http://schema.org/logo>	44728
+Yago facts before any filter	<http://schema.org/longitude>	0
+Yago facts before any filter	<http://schema.org/lyricist>	12330
+Yago facts before any filter	<http://schema.org/material>	25825
+Yago facts before any filter	<http://schema.org/maxValue>	0
+Yago facts before any filter	<http://schema.org/memberOf>	1044795
+Yago facts before any filter	<http://schema.org/minValue>	0
+Yago facts before any filter	<http://schema.org/musicBy>	71359
+Yago facts before any filter	<http://schema.org/musicReleaseFormat>	72518
+Yago facts before any filter	<http://schema.org/nationality>	1024238
+Yago facts before any filter	<http://schema.org/netWorth>	717
+Yago facts before any filter	<http://schema.org/numberOfEmployees>	12237
+Yago facts before any filter	<http://schema.org/numberOfEpisodes>	24423
+Yago facts before any filter	<http://schema.org/numberOfPages>	873
+Yago facts before any filter	<http://schema.org/numberOfSeasons>	16579
+Yago facts before any filter	<http://schema.org/operatingSystem>	10686
+Yago facts before any filter	<http://schema.org/organizer>	25994
+Yago facts before any filter	<http://schema.org/owns>	20676
+Yago facts before any filter	<http://schema.org/pagination>	287
+Yago facts before any filter	<http://schema.org/parent>	129652
+Yago facts before any filter	<http://schema.org/parentOrganization>	16528
+Yago facts before any filter	<http://schema.org/partOfSeason>	7590
+Yago facts before any filter	<http://schema.org/partOfSeries>	42057
+Yago facts before any filter	<http://schema.org/position>	3056
+Yago facts before any filter	<http://schema.org/possibleTreatment>	380
+Yago facts before any filter	<http://schema.org/producer>	84194
+Yago facts before any filter	<http://schema.org/productionCompany>	33121
+Yago facts before any filter	<http://schema.org/provider>	39567
+Yago facts before any filter	<http://schema.org/publisher>	42127
+Yago facts before any filter	<http://schema.org/recordLabel>	149154
+Yago facts before any filter	<http://schema.org/releaseOf>	41
+Yago facts before any filter	<http://schema.org/relevantSpecialty>	4326
+Yago facts before any filter	<http://schema.org/riskFactor>	112
+Yago facts before any filter	<http://schema.org/sameAs>	0
+Yago facts before any filter	<http://schema.org/servesCuisine>	1169
+Yago facts before any filter	<http://schema.org/signOrSymptom>	2261
+Yago facts before any filter	<http://schema.org/sponsor>	3411
+Yago facts before any filter	<http://schema.org/sport>	642551
+Yago facts before any filter	<http://schema.org/spouse>	92036
+Yago facts before any filter	<http://schema.org/startDate>	66334
+Yago facts before any filter	<http://schema.org/subEvent>	260519
+Yago facts before any filter	<http://schema.org/subOrganization>	26657
+Yago facts before any filter	<http://schema.org/superEvent>	217196
+Yago facts before any filter	<http://schema.org/telephone>	11081
+Yago facts before any filter	<http://schema.org/translator>	413
+Yago facts before any filter	<http://schema.org/unitCode>	0
+Yago facts before any filter	<http://schema.org/url>	462812
+Yago facts before any filter	<http://schema.org/value>	0
+Yago facts before any filter	<http://schema.org/volumeNumber>	177
+Yago facts before any filter	<http://schema.org/weight>	107198
+Yago facts before any filter	<http://schema.org/width>	13384
+Yago facts before any filter	<http://schema.org/workExample>	20601
+Yago facts before any filter	<http://schema.org/worksFor>	166342
+Yago facts before any filter	<http://www.w3.org/2002/07/owl#sameAs>	0
+Yago instances in a disjoint intersection	*	1279
+bad classes	*	157
+bad classes instances	*	507447
+classes with at least 10 instances	*	22456
+sameAs	*	23085936
+sameAs	Freebase	1899435
+sameAs	Wikidata	2759964
+sameAs	Wikipedia	15666573
+sameAs	dbPedia	2759964
+sub class of relations in Yago	*	5223
