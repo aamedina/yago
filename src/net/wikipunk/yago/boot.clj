@@ -17,3 +17,9 @@
    :rdfa/uri    "http://bioschemas.org/"
    :rdfa/prefix "bioschema"})
 
+(def shapes
+  {:dcat/downloadURL "resources/yago-wd-shapes.nt.gz"
+   :rdf/type         :rdfa/PrefixMapping
+   :rdfa/uri         "http://yago-knowledge.org/value/"
+   :rdfa/prefix      "yago.shapes"})
+
