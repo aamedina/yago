@@ -7,6 +7,14 @@ cities, countries, movies, and organizations.
 
 ## :dev
 
+*NOTE*
+
+Although I have only included the subset of yago4 which have english
+wikipedia articles in this repository, it remains a very large
+knowledge graph to load into memory. The next step should be to
+install this graph into Datomic and automating this workflow continues
+to be a work-in-progress.
+
 ``` shell
 clojure -A:dev
 ```

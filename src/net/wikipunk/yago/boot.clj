@@ -2,7 +2,8 @@
   {:rdf/type :jsonld/Context})
 
 (def yago
-  {:rdf/type    :rdfa/PrefixMapping
+  {:dcat/downloadURL "resources/yago-wd-class.nt.gz"
+   :rdf/type    :rdfa/PrefixMapping
    :rdfa/uri    "http://yago-knowledge.org/resource/"
    :rdfa/prefix "yago"})
 
@@ -22,4 +23,22 @@
    :rdf/type         :rdfa/PrefixMapping
    :rdfa/uri         "http://yago-knowledge.org/value/"
    :rdfa/prefix      "yago.shapes"})
+
+(def facts
+  {:dcat/downloadURL "resources/yago-wd-facts.nt.gz"})
+
+(def labels
+  {:dcat/downloadURL "resources/yago-wd-labels.nt.gz"})
+
+(def annotated-facts
+  {:dcat/downloadURL "resources/yago-wd-annotated-facts.ntx.gz"})
+
+(def full-types
+  {:dcat/downloadURL "resources/yago-wd-full-types.nt.gz"})
+
+(def simple-types
+  {:dcat/downloadURL "resources/yago-wd-simple-types.nt.gz"})
+
+(def sameAs
+  {:dcat/downloadURL "resources/yago-wd-sameAs.nt.gz"})
 

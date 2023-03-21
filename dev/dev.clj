@@ -27,8 +27,7 @@
    [net.wikipunk.rdf :as rdf :refer [doc]]
    [net.wikipunk.temple :as temple]
    [zprint.core :as zprint]
-   [net.wikipunk.yago.boot :as boot]
-   [net.wikipunk.rdf.yago])
+   [net.wikipunk.yago.boot :as boot])
   (:refer-clojure :exclude [isa? descendants parents ancestors]))
 
 (set-init
@@ -45,3 +44,23 @@
   [& body]
   `(do (@user/reveal (do ~@body))
        true))
+
+(comment
+  (let [full-types (ns-map 'net.wikipunk.rdf.yago.full-types)]
+    (spit "resources/net/wikipunk/rdf/yago/full_facts.clj"
+          (binding [*print-namespace-maps* nil
+                    *print-meta*           true]
+            (let [forms (cons `(~'in-ns 'net.wikipunk.rdf.yago)
+                              (map (fn [[k v]]
+                                     (list 'def k (merge @v @(get full-types k))))
+                                   (ns-publics 'net.wikipunk.rdf.yago.facts)))]
+              (with-out-str
+                (doseq [form forms]
+                  (zprint/zprint form {:map    {:justify?      true
+                                                :nl-separator? false
+                                                :hang?         true
+                                                :indent        0
+                                                :sort-in-code? true
+                                                :force-nl?     true}
+                                       :vector {:wrap? false}})
+                  (newline))))))))
