@@ -23,6 +23,16 @@ clojure -A:dev
 (reset)
 ```
 
+``` clojure
+(xt/q (:vocab system)
+      '{:find [(sample 10 ?e)]
+        :where [[?e :rdf/type :yago/Human]
+                [?e :schema/hasOccupation :yago/Actor]
+                [?e :schema/nationality :yago/United_States]
+                [?e :schema/birthDate ?birth]
+                [(> ?birth #inst "1989-01-01")]]})
+```
+
 ## License
 Copyright (c) 2023 Adrian Medina
 

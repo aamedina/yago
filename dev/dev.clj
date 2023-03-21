@@ -27,7 +27,8 @@
    [net.wikipunk.rdf :as rdf :refer [doc]]
    [net.wikipunk.temple :as temple]
    [zprint.core :as zprint]
-   [net.wikipunk.yago.boot :as boot])
+   [net.wikipunk.yago.boot :as boot]
+   [xtdb.api :as xt])
   (:refer-clojure :exclude [isa? descendants parents ancestors]))
 
 (set-init
