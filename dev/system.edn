@@ -1,9 +1,16 @@
-{:vocab  {:sc/create-fn net.wikipunk.rdf/map->UniversalTranslator
-          :sc/refs      [:yago]
-          :init-ns      net.wikipunk.temple.init
-          :ns-prefix    "net.wikipunk.rdf."
-          :boot         [net.wikipunk.yago.boot/yago]
-          :config       {:xtdb.lucene/lucene-store
-                         {:db-dir ".vocab/lucene"}}}
+{:env    {:sc/create-fn net.wikipunk.asami/map->Connection
+          :uri          "asami:mem://.vocab"}
+ :vocab  {:sc/create-fn net.wikipunk.rdf/map->UniversalTranslator
+          :sc/refs      [:yago :openai :qdrant :env]
+          :context      [net.wikipunk.punk.boot]
+          :finalize?    true}
  :openai {:sc/create-fn net.wikipunk.openai/map->Client}
- :yago   {:sc/create-fn net.wikipunk.yago/map->YAGO}}
+ :qdrant {:sc/create-fn net.wikipunk.qdrant/map->Client
+          :sc/refs      [:openai]}
+ :yago   {:sc/create-fn net.wikipunk.yago/map->YAGO}
+ :client {:sc/create-fn datomic.client.api/client
+          :server-type  :datomic-local
+          :system       "dev"}
+ :db     {:sc/create-fn net.wikipunk.datomic/map->Connection
+          :sc/refs      [:client]
+          :db-name      "yago"}}

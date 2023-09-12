@@ -4,6 +4,7 @@
    [clojure.edn]
    [clojure.repl]
    [clojure.tools.namespace.repl]
+   [net.wikipunk.rdf]
    [com.stuartsierra.component.user-helpers :refer [dev go reset]]))
 
 (clojure.tools.namespace.repl/set-refresh-dirs "dev" "src")

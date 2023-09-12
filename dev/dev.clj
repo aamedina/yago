@@ -6,6 +6,8 @@
   `com.stuartsierra.component.repl/system`.
   See also https://github.com/stuartsierra/component.repl"
   (:require
+   [clj-http.client :as http]
+   [clojure.data.json :as json]
    [clojure.datafy :refer [datafy]]
    [clojure.edn :as edn]
    [clojure.java.io :as io]
@@ -16,23 +18,25 @@
    [clojure.set :as set]
    [clojure.string :as str]
    [clojure.tools.namespace.repl :refer [refresh refresh-all clear]]
+   [clojure.walk :as walk]
    [com.stuartsierra.component :as com]
    [com.stuartsierra.component.repl :refer [reset set-init start stop system]]
    [com.walmartlabs.schematic :as sc]
+   [datomic.client.api :as d]
    [net.wikipunk.boot]
    [net.wikipunk.ext]
-   [net.wikipunk.chat :as chat]
-   [net.wikipunk.mop :as mop :refer [isa? descendants parents ancestors]]
-   [net.wikipunk.openai :as openai]
+   [net.wikipunk.mop :as mop]
    [net.wikipunk.rdf :as rdf :refer [doc]]
-   [net.wikipunk.temple :as temple]
+   [net.wikipunk.datomic.boot :as db]
+   [net.wikipunk.qdrant :as qdrant]
+   [net.wikipunk.openai :as openai]
    [zprint.core :as zprint]
    [net.wikipunk.yago.boot :as boot]
-   [xtdb.api :as xt])
-  (:refer-clojure :exclude [isa? descendants parents ancestors]))
+   [asami.core :as asami]))
 
 (set-init
   (fn [_]
+    (set! *print-namespace-maps* nil)
     (if-let [r (io/resource "system.edn")]
       (-> (slurp r)
           (edn/read-string)
@@ -45,23 +49,3 @@
   [& body]
   `(do (@user/reveal (do ~@body))
        true))
-
-(comment
-  (let [full-types (ns-map 'net.wikipunk.rdf.yago.full-types)]
-    (spit "resources/net/wikipunk/rdf/yago/full_facts.clj"
-          (binding [*print-namespace-maps* nil
-                    *print-meta*           true]
-            (let [forms (cons `(~'in-ns 'net.wikipunk.rdf.yago)
-                              (map (fn [[k v]]
-                                     (list 'def k (merge @v @(get full-types k))))
-                                   (ns-publics 'net.wikipunk.rdf.yago.facts)))]
-              (with-out-str
-                (doseq [form forms]
-                  (zprint/zprint form {:map    {:justify?      true
-                                                :nl-separator? false
-                                                :hang?         true
-                                                :indent        0
-                                                :sort-in-code? true
-                                                :force-nl?     true}
-                                       :vector {:wrap? false}})
-                  (newline))))))))

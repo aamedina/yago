@@ -1,19 +1,20 @@
 # net.wikipunk/yago
-YAGO is a large knowledge base with general knowledge about people,
-cities, countries, movies, and organizations. 
+YAGO 4.5 is the latest version of the YAGO knowledge base. It is based on Wikidata — the largest public general-purpose knowledge base. YAGO refines the data as follows:
 
-## :rdfs/seeAlso
-* https://yago-knowledge.org/
+1.    All entity identifiers and property identifiers are human-readable.
+2.    The top-level classes come from schema.org — a standard repertoire of classes and properties maintained by Google and others. The lower level classes are a careful selection of the Wikidata taxonomy.
+3.    The properties come from schema.org.
+4.    YAGO 4.5 contains semantic constraints in the form of SHACL. These constraints keep the data clean, and allow for logical reasoning on YAGO. 
+
+YAGO is thus a simplified, cleaned, and “reasonable” version of Wikidata. It contains 49 million entities and 109 million facts.
+
+If you use YAGO 4.5 for scientific purposes, please cite our paper:
+
+>    Fabian M. Suchanek, Mehwish Alam, Thomas Bonald, Pierre-Henri Paris, Jules Soria:
+>    Integrating the Wikidata Taxonomy into YAGO
+>    Arxiv 2308.11884, 2023 
 
 ## :dev
-
-*NOTE*
-
-Although I have only included the subset of yago4 which have english
-wikipedia articles in this repository, it remains a very large
-knowledge graph to load into memory. The next step should be to
-install this graph into Datomic and automating this workflow continues
-to be a work-in-progress.
 
 ``` shell
 clojure -A:dev
@@ -22,17 +23,6 @@ clojure -A:dev
 ``` clojure
 (reset)
 ```
-
-``` clojure
-(xt/q (:vocab system)
-      '{:find [(sample 10 ?e)]
-        :where [[?e :rdf/type :yago/Human]
-                [?e :schema/hasOccupation :yago/Actor]
-                [?e :schema/nationality :yago/United_States]
-                [?e :schema/birthDate ?birth]
-                [(> ?birth #inst "1989-01-01")]]})
-```
-
 ## License
 Copyright (c) 2023 Adrian Medina
 

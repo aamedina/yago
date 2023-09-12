@@ -1,24 +1,26 @@
 {:deps
- {org.clojure/clojure
-  {:mvn/version "1.11.1"}
-  io.github.aamedina/rdf
-  {:git/sha "6bcce416a38089f0faf9ce1f398157c864fa4339"}}
- :paths ["src" "classes" "resources"]
+ {io.github.aamedina/rdf
+  {:sha     "04aa42683be259030b22053eb9bbae0b2c98379b"
+   :git/url "https://github.com/aamedina/rdf.git"}}
+ :paths ["src/clj" "src/cljc" "classes" "resources"]
  :aliases
  {:dev
   {:extra-deps
-   {com.walmartlabs/schematic
+   {io.github.aamedina/qdrant
+    {:sha     "7e581d3247cf83e49b851e482a8e3b40f7838c4c"
+     :git/url "https://github.com/aamedina/qdrant.git"}
+    com.walmartlabs/schematic
     {:mvn/version "1.3.0"}
     com.stuartsierra/component.repl
-    {:mvn/version "0.2.0"}
+    {:mvn/version "1.0.0"}
     org.clojure/test.check
     {:mvn/version "1.1.1"}
     org.clojure/tools.namespace
-    {:mvn/version "1.3.0"}
+    {:mvn/version "1.4.4"}
     org.slf4j/slf4j-simple
-    {:mvn/version "1.7.36"}
+    {:mvn/version "2.0.7"}
     vlaaad/reveal
-    {:mvn/version "1.3.277"}}
+    {:mvn/version "1.3.280"}}
    :extra-paths ["dev"]
    :jvm-opts    ["-Xmx100g"
                  "-XX:-OmitStackTraceInFastThrow"
