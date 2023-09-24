@@ -1,0 +1,18 @@
+CONSTRUCT {
+    ?s ?p ?o .
+}
+WHERE {
+    ?s ?p ?o .
+    FILTER (
+        # Remove non-English language-tagged literals
+        !isLiteral(?o) || 
+        (langMatches(lang(?o), "EN") && !regex(str(?o), "@[a-z]{2,3}(-[a-z]{2,3})?$", "i")) &&
+        
+        # Remove triples with URIs starting with any other https://[lang].wiki format except https://en.wiki
+        (!regex(str(?o), "https://[a-z]{2,3}(-[a-z]{2,3})?\\.wiki", "i") || regex(str(?o), "https://en\\.wiki", "i")) &&
+        
+        # Remove schema:sameAs and schema:demonym
+        ?p != <schema:sameAs> &&
+        ?p != <schema:demonym>
+    )
+}

@@ -25,4 +25,6 @@
    :jvm-opts    ["-Xmx100g"
                  "-XX:-OmitStackTraceInFastThrow"
                  "-XX:+HeapDumpOnOutOfMemoryError"
-                 "-Dorg.slf4j.simpleLogger.defaultLogLevel=warn"]}}}
+                 "-Dorg.slf4j.simpleLogger.defaultLogLevel=warn"
+                 "-Djava.util.Arrays.useLegacyMergeSort=true"]}}}
+

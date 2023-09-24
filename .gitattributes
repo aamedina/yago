@@ -2,3 +2,4 @@
 resources/net/wikipunk/rdf/yago/full_facts.clj filter=lfs diff=lfs merge=lfs -text
 resources/net/wikipunk/rdf/yago/full_types.clj filter=lfs diff=lfs merge=lfs -text
 resources/net/wikipunk/rdf/yago/facts.clj filter=lfs diff=lfs merge=lfs -text
+resources/net/wikipunk/rdf/yago.cljc filter=lfs diff=lfs merge=lfs -text
