@@ -40,29 +40,33 @@ WHERE {
   ?s ?p ?o .
   # If the predicate is one of the schema properties to be renamed, set ?newp to the corresponding yago property
   BIND(
-    IF(?p IN (
-      schema:administrates,
-      schema:demonym,
-      schema:highestPoint,
-      schema:humanDevelopmentIndex,
-      schema:influencedBy,
-      schema:leader,
-      schema:lowestPoint,
-      schema:motto,
-      schema:neighbors,
-      schema:officialLanguage,
-      schema:ownedBy,
-      schema:populationNumber,
-      schema:unemploymentRate
-    ), URI(REPLACE(STR(?p), "http://schema.org/", "http://yago-knowledge.org/resource/")), ?p)
-    AS ?newp
-  )
+       IF(?p IN (
+		 schema:administrates,
+		 schema:demonym,
+		 schema:highestPoint,
+		 schema:humanDevelopmentIndex,
+		 schema:influencedBy,
+		 schema:leader,
+		 schema:lowestPoint,
+		 schema:motto,
+		 schema:neighbors,
+		 schema:officialLanguage,
+		 schema:ownedBy,
+		 schema:populationNumber,
+		 schema:unemploymentRate
+		 ), URI(REPLACE(STR(?p), "http://schema.org/", "http://yago-knowledge.org/resource/")), ?p)
+       AS ?newp
+       )
   
   FILTER (
-    !isLiteral(?o) ||
-    (isLiteral(?o) && str(?o) != "Generic instance") &&
-    (isLiteral(?o) && (lang(?o) = "" || lang(?o) = "en")) &&
-    (!regex(str(?o), "https://[a-z]{2,3}(-[a-z]{2,3})?\\.wiki", "i") || regex(str(?o), "https://en\\.wiki", "i")) &&
-    ?p != schema:sameAs
-  )
+	  # Exclude literals with the value "Generic instance"
+	  !(isLiteral(?o) && str(?o) = "Generic instance") &&
+	  
+	  # Exclude literals of type xsd:anyURI
+	  !(isLiteral(?o) && datatype(?o) = xsd:anyURI) &&
+	  
+	  # Exclude schema:sameAs 
+	  ?p != schema:sameAs && 
+	  ?p != owl:sameAs
+	  )
 }

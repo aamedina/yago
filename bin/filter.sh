@@ -19,7 +19,7 @@ QUERY_FILE="$3"
 # Function to process a chunk
 process_chunk() {
   chunk="$1"
-  output_file="${OUTPUT_DIR}/$(basename "$chunk")"
+  output_file="${OUTPUT_DIR}/$(basename "$chunk").nt"
   
   # Run SPARQL query using arq and write the result to a temporary file
   arq --query="$QUERY_FILE" --data="$chunk" --results=nt > "${output_file}"
