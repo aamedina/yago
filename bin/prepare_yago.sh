@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Exit on error
+set -e
+
 # Check if at least two arguments are given (input file and output directory)
 if [ "$#" -ne 3 ]; then
     echo "Usage: $0 <input_file.ttl> <output_directory> <query_file.rq>"

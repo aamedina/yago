@@ -11,8 +11,33 @@ YAGO is thus a simplified, cleaned, and “reasonable” version of Wikidata. It
 If you use YAGO 4.5 for scientific purposes, please cite our paper:
 
 >    Fabian M. Suchanek, Mehwish Alam, Thomas Bonald, Pierre-Henri Paris, Jules Soria:
+
 >    Integrating the Wikidata Taxonomy into YAGO
+
 >    Arxiv 2308.11884, 2023 
+
+## Preprocessing the data for use in fine-tuning 
+* yago-facts.ttl (21G)
+* yago-beyond-wikipedia.ttl (118G)
+### Overview
+Each TTL file provided by YAGO 4.5 has the same
+prefixes. Additionally, the facts have been written in a way that
+makes it easier to process. The file is line delimited per triple and
+each triple element is tab delimited. 
+
+In order to apply arbitrary and complex filtering/post-processing on
+these facts we need to be able to load a subset of the graph into a
+SPARQL endpoint (like arq) and use SPARQL to filter the triples.
+
+To start processing we first need to construct chunks from all of the
+triples in both of these files. Our goal is to make the ETL order
+independent. Any RDF process can take any chunk as input and process it
+as an independent subgraph of YAGO. This requires loading the prefixes
+and then the triples in one file per chunk. 
+
+Once we have the TTL chunks of the original dataset we can filter
+them in independent processes via `arq`.
+
 
 ## :dev
 
