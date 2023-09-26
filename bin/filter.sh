@@ -32,4 +32,4 @@ export QUERY_FILE
 export OUTPUT_DIR
 
 # Find all Turtle files in the chunk directory and process them in parallel
-find "$CHUNK_DIR" -name '*.ttl' | parallel process_chunk
+find "$CHUNK_DIR" -name '*.ttl' | parallel -j+0 --eta process_chunk
