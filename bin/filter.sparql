@@ -37,32 +37,54 @@ CONSTRUCT {
   ?s ?newp ?o .
 }
 WHERE {
-  ?s ?p ?o .
-  # If the predicate is one of the schema properties to be renamed, set ?newp to the corresponding yago property
-  BIND(
-    IF(?p IN (
-      schema:administrates,
-      schema:demonym,
-      schema:highestPoint,
-      schema:humanDevelopmentIndex,
-      schema:influencedBy,
-      schema:leader,
-      schema:lowestPoint,
-      schema:motto,
-      schema:neighbors,
-      schema:officialLanguage,
-      schema:ownedBy,
-      schema:populationNumber,
-      schema:unemploymentRate
-    ), URI(REPLACE(STR(?p), "http://schema.org/", "http://yago-knowledge.org/resource/")), ?p)
-    AS ?newp
-  )
+  ?s ?p ?originalO .
   
+  # Transforming the predicates to a new namespace where applicable
+  BIND(
+       IF(?p IN (
+		 schema:administrates,
+		 schema:demonym,
+		 schema:highestPoint,
+		 schema:humanDevelopmentIndex,
+		 schema:influencedBy,
+		 schema:leader,
+		 schema:lowestPoint,
+		 schema:motto,
+		 schema:neighbors,
+		 schema:officialLanguage,
+		 schema:ownedBy,
+		 schema:populationNumber,
+		 schema:unemploymentRate
+		 ), URI(REPLACE(STR(?p), "http://schema.org/", "http://yago-knowledge.org/resource/")), ?p)
+       AS ?newp
+       )
+
+  # Transforming negative xsd:dateTime to xsd:dateTimeStamp
+  BIND(
+       IF(datatype(?originalO) = xsd:dateTime && STRSTARTS(STR(?originalO), "-"),
+	  STRDT(STR(?originalO), xsd:dateTimeStamp),
+	  ?originalO)
+       AS ?o
+       )
+  
+  # Filtering out non-English literals and xsd:anyURI literals
   FILTER (
-    !isLiteral(?o) ||
-    (isLiteral(?o) && str(?o) != "Generic instance") &&
-    (isLiteral(?o) && (lang(?o) = "" || lang(?o) = "en")) &&
-    (!regex(str(?o), "https://[a-z]{2,3}(-[a-z]{2,3})?\\.wiki", "i") || regex(str(?o), "https://en\\.wiki", "i")) &&
-    ?p != schema:sameAs
-  )
+	  !(
+	    isLiteral(?o) && 
+	    (
+	     lang(?o) != "" && 
+	     !(
+               langMatches(lang(?o), "en") && 
+               lang(?o) != "en-gb" && 
+               lang(?o) != "en-ca"
+	       ) || 
+	     datatype(?o) = xsd:anyURI || 
+	     (?p = rdfs:label && str(?o) = "Generic instance")
+	     )
+	    )
+	  )
+
+  # Excluding specific predicates
+  FILTER (?p != schema:sameAs)
+  FILTER (?p != owl:sameAs)
 }
