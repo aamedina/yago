@@ -16,6 +16,9 @@ If you use YAGO 4.5 for scientific purposes, please cite our paper:
 
 >    Arxiv 2308.11884, 2023 
 
+## Hugging Face datasets
+* https://huggingface.co/datasets/wikipunk/yago45en
+
 ## Preprocessing the data for use in fine-tuning 
 * yago-facts.ttl (21G)
 * yago-beyond-wikipedia.ttl (118G)
